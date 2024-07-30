@@ -1,0 +1,126 @@
+:root {
+  --font_montserrat: 'montserrat', serif;
+  --font_fraunces: 'fraunces', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+.card-container {
+  background-color: hsl(0, 0%, 100%);
+  width: 90%;
+  height: fit-content;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+}
+
+.product_image img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  display: block;
+  width: 100%;
+}
+
+.product_content {
+  padding: 20px;
+}
+
+.product_content ._category {
+  font-family: var(--font_montserrat);
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.product_content ._title {
+  font-family: var(--font_fraunces);
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  
+}
+
+.product_content ._detail {
+  font-family: var(--font_montserrat);
+  font-size: 14px;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+
+.product_content ._price {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.product_content ._price ._market {
+  font-family: var(--font_fraunces);
+  font-size: 30px;
+  color: hsl(158, 36%, 37%);
+  font-weight: 700;
+}
+
+.product_content ._price ._original {
+  font-family: var(--font_montserrat);
+  font-size: 12px;
+  text-decoration: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+.product_content button {
+  width: 100%;
+  padding: 15px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font-family: var(--font_montserrat);
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.product_content button:is(:hover, :focus) {
+  background-color: hsl(158, 36%, 20%);
+}
+
+/* For mobile phones */
+[class*="col-"] {
+  width: 100%;
+  float: left;
+}
+
+/* Media Query */
+@media screen and (min-width: 599px) {
+
+  /* For large screens */
+  .card-container {
+    width: 600px;
+  }
+
+  .col-left, .col-right {
+    width: 50%;
+  }
+
+  .product_image img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+  }
+}
