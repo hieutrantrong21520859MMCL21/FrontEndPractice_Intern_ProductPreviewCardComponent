@@ -1,8 +1,8 @@
-# Frontend Mentor - QR code component
+# Frontend Mentor - Product preview card component
 
 ## 1. Overview
 
-The challenge is to build out this QR code component and get it looking as close to the design as possible.
+The challenge is to build out this Product preview card component and get it looking as close to the design as possible.
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
