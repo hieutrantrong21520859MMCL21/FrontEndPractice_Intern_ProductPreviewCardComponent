@@ -1,4 +1,4 @@
-# Frontend Mentor - QR code component - TEST BRANCH
+# Frontend Mentor - Product preview card component - TEST BRANCH
 
 ## 1. Overview
 
