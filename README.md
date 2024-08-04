@@ -1,8 +1,8 @@
-# Frontend Mentor - Product preview card component - TEST BRANCH
+# Frontend Mentor - Product preview card component (Test)
 
 ## 1. Overview
 
-The challenge is to build out this QR code component and get it looking as close to the design as possible.
+The challenge is to build out this Product preview card component and get it looking as close to the design as possible.
 
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
@@ -27,6 +27,7 @@ The challenge is to build out this QR code component and get it looking as close
 
 - How to design following mobile - first workflow.
 - How to use semantic HTML markup (*picture*, *section*, ...).
+- How to use *float layout* in CSS.
 - How to use variables in CSS.
 - How to apply a new component *button*.
 - Some codes I am most proud of (which consist of knowledge I have learned):
